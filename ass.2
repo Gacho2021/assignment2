@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-7">
+        <meta http-equiv="X-UA-compatible"
+        content="IE=edge">
+        <meta name="viewport"
+        content="width=devic-width, initial-scale=1.0">
+        <title>Document</title>
+ 
+        <head>
+            <body>
+                <p id="number1"></p>
+                <p id="number2"></p>
+                <script src="script.js"></script>
+                </body>
+                </head>
+ 
+ //set varibles for the number and activity
+let userNum = prompt("Lets play the sum game.\nPlease enter your name");
+let number1 = prompt("Enter the first value to add");
+let number2 = prompt("Enter the second value to add");
+ 
+let number1 = 5
+let number2 = 7
+let total = number1 + number2
+let activity = `The sum of ${number1} + ${number2} is ${total}`
+ 
+//set variables for selectors
+let number1 = document.getElementById('number1')
+let number2 = document.getElementById('number2')
+ 
+//inserted variable into the objects
+number1.innerHTML = greeting
+number2.innerHTML = activity
 
